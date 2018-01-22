@@ -1,0 +1,91 @@
+body {
+	background: #fffbd7;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 880px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+.title {
+	width: 300px;
+	height: 500px;
+	float: left;
+	margin-right: 10px;
+	padding-top: 80px;
+	box-sizing: border-box;
+	background: rgba(255, 218, 72, 0.3);
+	padding-right: 10px;
+	padding-left: 15px;
+	border: 1px solid rgba(59, 59, 59, 0.5);
+	/*box-shadow: 1px 1px 5px #3b3b3b inset;*/
+	border-radius: 5px;
+}
+
+.title .head {
+	font-size: 50px;
+}
+
+.prompt {
+	margin-top: 10px;
+	color: #4b4b4b;
+	line-height: 40px;
+}
+
+.new {
+	margin-top: 60px;
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	line-height: 50px;
+	background: orange;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.score-out {
+	margin-top: 15px;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	color: #4b4b4b;
+}
+
+.score {}
+
+.box {
+	float: left;
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background: #c5a666;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.box-in {
+	width: 113px;
+	height: 113px;
+	border-radius: 5px;
+	background: #f0ca7b;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+.sum {
+	width: 200px;
+	float: left;
+}
+
+.move-box {
+	position: absolute;
+}
